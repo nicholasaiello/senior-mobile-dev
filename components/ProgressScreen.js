@@ -18,11 +18,11 @@ export default class ProgressScreen extends React.Component {
   };
 
   render() {
-    
+
     setTimeout(() => {
       const { navigate, state } = this.props.navigation;
       navigate(state.params.nextScreen, {});
-    }, 2000);
+    }, 1000);
 
     return (
       <View style={styles.container}>
